@@ -1,0 +1,10 @@
+   What I have learned:
+  1.  At first ,it is a coding-hidden mechanism.
+  2.  It has access to the outer class's member , even private member.
+    an inner class, an object of that inner class has a link to the enclosing object that made it, and 
+    so it can access the members of that enclosing object—without any special qualifications. In 
+    addition, inner classes have access rights to all the elements in the enclosing class.
+  3.  In outer class,you can use it just like other ordinary classes. 
+    But if you want to make an object of the inner class anywhere except from within a non-static method of the outer class, 
+    you must specify the type of that object as OuterClassName.InnerClassName
+   
